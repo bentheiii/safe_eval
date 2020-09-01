@@ -12,3 +12,7 @@ class UnauthorizedCall(UnauthorizedEvalError):
 
 class UnauthorizedAttributeAccess(UnauthorizedEvalError):
     pass
+
+
+class UnauthorizedSubscript(UnauthorizedEvalError):
+    pass
