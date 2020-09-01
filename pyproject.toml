@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "safe_eval"
+version = "0.0.1"
+description = ""
+authors = ["Ben Avrahami <ben.avrahami@biocatch.com>"]
+license = "MIT License"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytype = "*"
+flake8 = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
